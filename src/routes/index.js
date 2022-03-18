@@ -17,6 +17,6 @@ apiRoute.use("/products", ProductRoute);
 apiRoute.use("/users", UserRoute);
 
 //  apiRoute.use('/products', userRoutes)
-//  apiRoute.use('/orders', orderRoutes)
+ apiRoute.use('/orders', orderRoutes)
 
 module.exports = apiRoute;
